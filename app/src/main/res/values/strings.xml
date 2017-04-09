@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Modanisa</string>
+
+    <string name="server_error">Failed to connect</string>
+    <string name="no_connection">No internet connection</string>
+    <string name="no_connection_retry">Check your connection \n and click try again</string>
+
+    <string name="main_activity_title">Fashion photos</string>
+
+    <string name="try_again">Try again</string>
+</resources>
