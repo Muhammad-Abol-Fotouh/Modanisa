@@ -16,8 +16,4 @@ public interface EndpointsInterface {
     Call<PhotosResponseModel> getPhotos(@Query("method") String method, @Query("api_key") String api_key, @Query("tag") String tag
             , @Query("page") int page, @Query("perpage") int perpage
             , @Query("format") String format, @Query("nojsoncallback") String nojsoncallback);
-
-    //https://api.flickr.com/services/rest/?method=flickr.tags.getClusterPhotos&api_key=f64b5341b77a779d52cf41749905e098&tag=fashion&format=json
-
-
 }

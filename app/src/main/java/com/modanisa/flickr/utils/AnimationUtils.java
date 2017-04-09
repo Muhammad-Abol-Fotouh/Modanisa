@@ -12,6 +12,7 @@ import android.view.animation.TranslateAnimation;
 
 public class AnimationUtils {
 
+    // Create the grid cells animation
     public static LayoutAnimationController animateGridCells(){
         AnimationSet set = new AnimationSet(true);
 

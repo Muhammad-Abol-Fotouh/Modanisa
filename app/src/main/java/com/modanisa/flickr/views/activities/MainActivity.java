@@ -42,6 +42,7 @@ public class MainActivity extends Activity implements APIResponseCallback, View.
         initialization();
     }
 
+    // Initialize all views and views actions
     private void initialization(){
         initializeToolbar();
         photosGrid = (GridView)findViewById(R.id.main_activity_photos_grid);

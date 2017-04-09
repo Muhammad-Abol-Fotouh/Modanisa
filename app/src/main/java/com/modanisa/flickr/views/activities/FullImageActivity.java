@@ -7,7 +7,6 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
-
 import com.modanisa.flickr.R;
 import com.squareup.picasso.Callback;
 import com.squareup.picasso.Picasso;
@@ -30,6 +29,7 @@ public class FullImageActivity extends Activity implements View.OnClickListener{
         initialization();
     }
 
+    // Initialize all views and views actions
     private void initialization(){
         imageTitleTV = (TextView) findViewById(R.id.full_image_activity_tv_title);
 

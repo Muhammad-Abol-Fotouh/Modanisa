@@ -18,16 +18,19 @@ public class PhotosAdapter extends BaseAdapter {
     private Context context;
     private PhotoItem photoItem;
 
+    // Adapter constructor
     public PhotosAdapter(Context context, ArrayList<PhotoModel> photoModelArrayList){
         this.context = context;
         this.photoModelArrayList = photoModelArrayList;
     }
 
+    // Return arraylist elements count
     @Override
     public int getCount() {
         return photoModelArrayList.size();
     }
 
+    // Return single photo model
     @Override
     public PhotoModel getItem(int position) {
         return photoModelArrayList.get(position);
@@ -38,6 +41,7 @@ public class PhotosAdapter extends BaseAdapter {
         return position;
     }
 
+    // Here is where the views loaded and become visible
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         if (convertView == null){

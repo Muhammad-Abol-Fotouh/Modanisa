@@ -47,6 +47,7 @@ public class PhotoItem extends LinearLayout {
         String url = "https://farm" + photoModel.getFarm() + ".staticflickr.com/" + photoModel.getServer() + "/" + photoModel.getId()
                 + "_" + photoModel.getSecret() + "_m" + ".jpg";
 
+        //Constructing the full sharable url to display the full size image
         final String fullImageUrl = "https://farm" + photoModel.getFarm() + ".staticflickr.com/" + photoModel.getServer() + "/" + photoModel.getId()
                 + "_" + photoModel.getSecret() + ".jpg";
 

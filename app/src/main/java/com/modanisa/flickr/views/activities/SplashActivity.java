@@ -24,6 +24,8 @@ public class SplashActivity extends Activity {
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_splash);
 
+
+        // Will move to the next screen after display time gone
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
